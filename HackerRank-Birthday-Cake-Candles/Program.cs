@@ -7,6 +7,11 @@ namespace HackerRank_Birthday_Cake_Candles
     {
         static void Main(string[] args)
         {
+            static int BirthdayCakeCandles(int[] ar)
+            {
+
+            }
+
             TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
             int arCount = Convert.ToInt32(Console.ReadLine());
