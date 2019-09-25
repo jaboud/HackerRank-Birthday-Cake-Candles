@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Linq;
 
 namespace HackerRank_Birthday_Cake_Candles
 {
@@ -9,7 +10,8 @@ namespace HackerRank_Birthday_Cake_Candles
         {
             static int BirthdayCakeCandles(int[] ar)
             {
-
+                //To find the biggest element within in the array, we use the First() function from System.Linq which goes through each element
+                int max = ar.First();
             }
 
             TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
